@@ -1,54 +1,54 @@
 import React from 'react';
 
-const App = () => <div class="page">
+const App = () => <div className="page">
 
-    <div class="preloader">
-        <div class="centrize full-width">
-            <div class="vertical-center">
-                <div class="spinner">
-                    <div class="double-bounce1"></div>
-                    <div class="double-bounce2"></div>
+    <div className="preloader">
+        <div className="centrize full-width">
+            <div className="vertical-center">
+                <div className="spinner">
+                    <div className="double-bounce1"></div>
+                    <div className="double-bounce2"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="background" style={{backgroundImage: `url(images/bg.jpg)`}}></div>
+    <div className="background" style={{ backgroundImage: `url(assets/images/bg.jpg)` }}></div>
 
-    <div class="container opened" data-animation-in="fadeInUp" data-animation-out="fadeOutUp">
+    <div className="container opened" data-animation-in="fadeInUp" data-animation-out="fadeOutUp">
 
-        <header class="header">
+        <header className="header">
 
-            <div class="top-menu">
+            <div className="top-menu">
                 <ul>
-                    <li class="active">
+                    <li className="active">
                         <a href="#about-card">
-                            <span class="icon ion-person"></span>
-                            <span class="link">About</span>
+                            <span className="icon ion-person"></span>
+                            <span className="link">About</span>
                         </a>
                     </li>
                     <li>
                         <a href="#resume-card">
-                            <span class="icon ion-android-list"></span>
-                            <span class="link">Resume</span>
+                            <span className="icon ion-android-list"></span>
+                            <span className="link">Resume</span>
                         </a>
                     </li>
                     <li>
                         <a href="#works-card">
-                            <span class="icon ion-paintbrush"></span>
-                            <span class="link">Works</span>
+                            <span className="icon ion-paintbrush"></span>
+                            <span className="link">Works</span>
                         </a>
                     </li>
                     <li>
                         <a href="#blog-card">
-                            <span class="icon ion-chatbox-working"></span>
-                            <span class="link">Blog</span>
+                            <span className="icon ion-chatbox-working"></span>
+                            <span className="link">Blog</span>
                         </a>
                     </li>
                     <li>
                         <a href="#contacts-card">
-                            <span class="icon ion-at"></span>
-                            <span class="link">Contact</span>
+                            <span className="icon ion-at"></span>
+                            <span className="link">Contact</span>
                         </a>
                     </li>
                 </ul>
@@ -56,39 +56,39 @@ const App = () => <div class="page">
 
         </header>
 
-        <div class="card-started" id="home-card">
+        <div className="card-started" id="home-card">
 
-            <div class="profile">
+            <div className="profile">
 
-                <div class="slide" style={{backgroundImage: `url(images/bg.jpg)`}}></div>
+                <div className="slide" style={{ backgroundImage: `url(assets/images/bg.jpg)` }}></div>
 
 
-                <div class="image">
-                    <img src="images/profile.png" alt="" />
+                <div className="image">
+                    <img src="assets/images/profile.png" alt="" />
                 </div>
 
 
-                <div class="title">Ryan Adlard</div>
-                <div class="subtitle">Web Designer</div>
+                <div className="title">Jerry Thimothy J</div>
+                <div className="subtitle">Consultant at Xebia | Web Developer | UI Developer | Javascript Developer | PHP Developer | Aquarist</div>
 
 
-                <div class="social">
-                    <a target="_blank" href="https://dribbble.com/"><span class="fab fa-dribbble"></span></a>
-                    <a target="_blank" href="https://twitter.com/"><span class="fab fa-twitter"></span></a>
-                    <a target="_blank" href="https://github.com/"><span class="fab fa-github"></span></a>
-                    <a target="_blank" href="https://www.spotify.com/"><span class="fab fa-spotify"></span></a>
-                    <a target="_blank" href="https://stackoverflow.com/"><span class="fab fa-stack-overflow"></span></a>
+                <div className="social">
+                    <a target="_blank" href="https://dribbble.com/"><span className="fab fa-dribbble"></span></a>
+                    <a target="_blank" href="https://twitter.com/"><span className="fab fa-twitter"></span></a>
+                    <a target="_blank" href="https://github.com/"><span className="fab fa-github"></span></a>
+                    <a target="_blank" href="https://www.spotify.com/"><span className="fab fa-spotify"></span></a>
+                    <a target="_blank" href="https://stackoverflow.com/"><span className="fab fa-stack-overflow"></span></a>
                 </div>
 
 
-                <div class="lnks">
-                    <a href="#" class="lnk">
-                        <span class="text">Download CV</span>
-                        <span class="ion ion-archive"></span>
+                <div className="lnks">
+                    <a href="#" className="lnk">
+                        <span className="text">Download CV</span>
+                        <span className="ion ion-archive"></span>
                     </a>
-                    <a href="#" class="lnk discover">
-                        <span class="text">Contact Me</span>
-                        <span class="arrow"></span>
+                    <a href="#" className="lnk discover">
+                        <span className="text">Contact Me</span>
+                        <span className="arrow"></span>
                     </a>
                 </div>
 
@@ -96,47 +96,47 @@ const App = () => <div class="page">
 
         </div>
 
-        <div class="card-inner animated active" id="about-card">
-            <div class="card-wrap">
+        <div className="card-inner animated active" id="about-card">
+            <div className="card-wrap">
 
-                <div class="content about">
+                <div className="content about">
 
-                    <div class="title">About Me</div>
+                    <div className="title">About Me</div>
 
-                    <div class="row">
-                        <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-                            <div class="text-box">
+                    <div className="row">
+                        <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
+                            <div className="text-box">
                                 <p>
-                                    I am Ryan Adlard, web designer from USA, California. I have rich experience in
-                                    web site design and building and customization, also I am good at wordpress.
-                                    I love to talk with you about our unique.
+                                    Playing with Javascript - React - Angular - Node - Typescript - HTML - CSS - Bootstrap - Material - PHP - SQL - DevOps - Agile ... and their friends...
+    
+    
                             </p>
                             </div>
-                            <div class="info-list">
+                            <div className="info-list">
                                 <ul>
-                                    <li><strong>Age . . . . .</strong> 24</li>
-                                    <li><strong>Residence . . . . .</strong> USA</li>
+                                    <li><strong>Age . . . . .</strong> 28</li>
+                                    <li><strong>Residence . . . . .</strong> India</li>
                                     <li><strong>Freelance . . . . .</strong> Available</li>
-                                    <li><strong>Address . . . . .</strong> California, USA</li>
+                                    <li><strong>Address . . . . .</strong> Bangalore, India</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
 
 
-                <div class="content services">
+                <div className="content services">
 
-                    <div class="title">My Services</div>
+                    <div className="title">My Services</div>
 
-                    <div class="row service-items border-line-v">
+                    <div className="row service-items border-line-v">
 
-                        <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
-                            <div class="service-item">
-                                <div class="icon"><span class="ion ion-code"></span></div>
-                                <div class="name">Web Development</div>
+                        <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
+                            <div className="service-item">
+                                <div className="icon"><span className="ion ion-code"></span></div>
+                                <div className="name">Web Development</div>
                                 <p>
                                     Modern and mobile-ready website that will help you
                                     reach all of your marketing.
@@ -144,84 +144,84 @@ const App = () => <div class="page">
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
-                            <div class="service-item">
-                                <div class="icon"><span class="ion ion-music-note"></span></div>
-                                <div class="name">Music Writing</div>
+                        <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
+                            <div className="service-item">
+                                <div className="icon"><span className="ion ion-music-note"></span></div>
+                                <div className="name">Music Writing</div>
                                 <p>
                                     Music copying, transcription, arranging and composition services.
                             </p>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12">
-                            <div class="service-item">
-                                <div class="icon"><span class="ion ion-speakerphone"></span></div>
-                                <div class="name">Advetising</div>
+                        <div className="col col-d-6 col-t-6 col-m-12">
+                            <div className="service-item">
+                                <div className="icon"><span className="ion ion-speakerphone"></span></div>
+                                <div className="name">Advetising</div>
                                 <p>
                                     Advertising services include television, radio, print, mail and web.
                             </p>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12">
-                            <div class="service-item">
-                                <div class="icon"><span class="ion ion-ios-game-controller-b"></span></div>
-                                <div class="name">Game Development</div>
+                        <div className="col col-d-6 col-t-6 col-m-12">
+                            <div className="service-item">
+                                <div className="icon"><span className="ion ion-ios-game-controller-b"></span></div>
+                                <div className="name">Game Development</div>
                                 <p>
                                     Developing memorable and unique mobile android, ios games.
                             </p>
                             </div>
                         </div>
 
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
 
-                <div class="content pricing">
+                <div className="content pricing">
 
-                    <div class="title">Pricing</div>
+                    <div className="title">Pricing</div>
 
-                    <div class="row pricing-items">
+                    <div className="row pricing-items">
 
-                        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-                            <div class="pricing-item">
-                                <div class="icon"><i class="ion ion-speedometer speed-basic"></i></div>
-                                <div class="name">Basic</div>
-                                <div class="amount">
-                                    <span class="dollar">$</span>
-                                    <span class="number">22</span>
-                                    <span class="period">hour</span>
+                        <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                            <div className="pricing-item">
+                                <div className="icon"><i className="ion ion-speedometer speed-basic"></i></div>
+                                <div className="name">Basic</div>
+                                <div className="amount">
+                                    <span className="dollar">$</span>
+                                    <span className="number">22</span>
+                                    <span className="period">hour</span>
                                 </div>
-                                <div class="feature-list">
+                                <div className="feature-list">
                                     <ul>
                                         <li>Web Development</li>
                                         <li>Advetising</li>
                                         <li>Game Development</li>
-                                        <li class="disable">Music Writing</li>
-                                        <li class="disable">Photography <strong>new</strong></li>
+                                        <li className="disable">Music Writing</li>
+                                        <li className="disable">Photography <strong>new</strong></li>
                                     </ul>
                                 </div>
-                                <div class="lnks">
-                                    <a href="#" class="lnk">
-                                        <span class="text">Buy Basic</span>
-                                        <i class="ion ion-speedometer speed-basic"></i>
+                                <div className="lnks">
+                                    <a href="#" className="lnk">
+                                        <span className="text">Buy Basic</span>
+                                        <i className="ion ion-speedometer speed-basic"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-                            <div class="pricing-item">
-                                <div class="icon"><i class="ion ion-speedometer"></i></div>
-                                <div class="name">Pro</div>
-                                <div class="amount">
-                                    <span class="dollar">$</span>
-                                    <span class="number">48</span>
-                                    <span class="period">hour</span>
+                        <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                            <div className="pricing-item">
+                                <div className="icon"><i className="ion ion-speedometer"></i></div>
+                                <div className="name">Pro</div>
+                                <div className="amount">
+                                    <span className="dollar">$</span>
+                                    <span className="number">48</span>
+                                    <span className="period">hour</span>
                                 </div>
-                                <div class="feature-list">
+                                <div className="feature-list">
                                     <ul>
                                         <li>Web Development</li>
                                         <li>Advetising</li>
@@ -230,107 +230,107 @@ const App = () => <div class="page">
                                         <li>Photography <strong>new</strong></li>
                                     </ul>
                                 </div>
-                                <div class="lnks">
-                                    <a href="#" class="lnk">
-                                        <span class="text">Buy Pro</span>
-                                        <i class="ion ion-speedometer"></i>
+                                <div className="lnks">
+                                    <a href="#" className="lnk">
+                                        <span className="text">Buy Pro</span>
+                                        <i className="ion ion-speedometer"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
 
-                <div class="content fuct">
+                <div className="content fuct">
 
-                    <div class="title">Fun Fact</div>
+                    <div className="title">Fun Fact</div>
 
-                    <div class="row fuct-items">
+                    <div className="row fuct-items">
 
-                        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-                            <div class="fuct-item">
-                                <div class="icon"><span class="ion ion-disc"></span></div>
-                                <div class="name">80 Albumes Listened</div>
+                        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+                            <div className="fuct-item">
+                                <div className="icon"><span className="ion ion-disc"></span></div>
+                                <div className="name">80 Albumes Listened</div>
                             </div>
                         </div>
 
-                        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-                            <div class="fuct-item">
-                                <div class="icon"><span class="ion ion-trophy"></span></div>
-                                <div class="name">15 Awards Won</div>
+                        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+                            <div className="fuct-item">
+                                <div className="icon"><span className="ion ion-trophy"></span></div>
+                                <div className="name">15 Awards Won</div>
                             </div>
                         </div>
 
-                        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-                            <div class="fuct-item">
-                                <div class="icon"><span class="ion ion-coffee"></span></div>
-                                <div class="name">1 000 Cups of coffee</div>
+                        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+                            <div className="fuct-item">
+                                <div className="icon"><span className="ion ion-coffee"></span></div>
+                                <div className="name">1 000 Cups of coffee</div>
                             </div>
                         </div>
 
-                        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-                            <div class="fuct-item">
-                                <div class="icon"><span class="ion ion-flag"></span></div>
-                                <div class="name">10 Countries Visited</div>
+                        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+                            <div className="fuct-item">
+                                <div className="icon"><span className="ion ion-flag"></span></div>
+                                <div className="name">10 Countries Visited</div>
                             </div>
                         </div>
 
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
 
 
-                <div class="content clients">
+                <div className="content clients">
 
-                    <div class="title">Clients</div>
+                    <div className="title">Clients</div>
 
-                    <div class="row client-items">
+                    <div className="row client-items">
 
-                        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-                            <div class="client-item">
-                                <div class="image">
+                        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+                            <div className="client-item">
+                                <div className="image">
                                     <a target="_blank" href="https://www.google.com">
-                                        <img src="images/clients/client_1.png" alt="" />
+                                        <img src="assets/images/clients/client_1.png" alt="" />
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-                            <div class="client-item">
-                                <div class="image">
+                        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+                            <div className="client-item">
+                                <div className="image">
                                     <a target="_blank" href="https://www.google.com">
-                                        <img src="images/clients/client_2.png" alt="" />
+                                        <img src="assets/images/clients/client_2.png" alt="" />
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-                            <div class="client-item">
-                                <div class="image">
+                        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+                            <div className="client-item">
+                                <div className="image">
                                     <a target="_blank" href="https://www.google.com">
-                                        <img src="images/clients/client_3.png" alt="" />
+                                        <img src="assets/images/clients/client_3.png" alt="" />
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
-                            <div class="client-item">
-                                <div class="image">
+                        <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+                            <div className="client-item">
+                                <div className="image">
                                     <a target="_blank" href="https://www.google.com">
-                                        <img src="images/clients/client_4.png" alt="" />
+                                        <img src="assets/images/clients/client_4.png" alt="" />
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
@@ -338,41 +338,41 @@ const App = () => <div class="page">
             </div>
         </div>
 
-        <div class="card-inner" id="resume-card">
-            <div class="card-wrap">
+        <div className="card-inner" id="resume-card">
+            <div className="card-wrap">
 
-                <div class="content resume">
+                <div className="content resume">
 
-                    <div class="title">Resume</div>
+                    <div className="title">Resume</div>
 
-                    <div class="row">
+                    <div className="row">
 
-                        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-                            <div class="resume-title border-line-h">
-                                <div class="icon"><i class="ion ion-briefcase"></i></div>
-                                <div class="name">Experience</div>
+                        <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                            <div className="resume-title border-line-h">
+                                <div className="icon"><i className="ion ion-briefcase"></i></div>
+                                <div className="name">Experience</div>
                             </div>
-                            <div class="resume-items">
-                                <div class="resume-item border-line-h active">
-                                    <div class="date">2013 - Present</div>
-                                    <div class="name">Art Director</div>
-                                    <div class="company">Facebook Inc.</div>
+                            <div className="resume-items">
+                                <div className="resume-item border-line-h active">
+                                    <div className="date">2013 - Present</div>
+                                    <div className="name">Art Director</div>
+                                    <div className="company">Facebook Inc.</div>
                                     <p>
                                         Collaborate with creative and development teams on the execution of ideas.
                                 </p>
                                 </div>
-                                <div class="resume-item border-line-h">
-                                    <div class="date">2011 - 2012</div>
-                                    <div class="name">Front-end Developer</div>
-                                    <div class="company">Google Inc.</div>
+                                <div className="resume-item border-line-h">
+                                    <div className="date">2011 - 2012</div>
+                                    <div className="name">Front-end Developer</div>
+                                    <div className="company">Google Inc.</div>
                                     <p>
                                         Monitored technical aspects of the front-end delivery for several projects.
                                 </p>
                                 </div>
-                                <div class="resume-item">
-                                    <div class="date">2009 - 2010</div>
-                                    <div class="name">Senior Developer</div>
-                                    <div class="company">Abc Inc.</div>
+                                <div className="resume-item">
+                                    <div className="date">2009 - 2010</div>
+                                    <div className="name">Senior Developer</div>
+                                    <div className="company">Abc Inc.</div>
                                     <p>
                                         Optimize website performance using latest technology.
                                 </p>
@@ -380,32 +380,32 @@ const App = () => <div class="page">
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-                            <div class="resume-title border-line-h">
-                                <div class="icon"><i class="ion ion-university"></i></div>
-                                <div class="name">Education</div>
+                        <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                            <div className="resume-title border-line-h">
+                                <div className="icon"><i className="ion ion-university"></i></div>
+                                <div className="name">Education</div>
                             </div>
-                            <div class="resume-items">
-                                <div class="resume-item border-line-h">
-                                    <div class="date">2006 - 2008</div>
-                                    <div class="name">Art University</div>
-                                    <div class="company">New York</div>
+                            <div className="resume-items">
+                                <div className="resume-item border-line-h">
+                                    <div className="date">2006 - 2008</div>
+                                    <div className="name">Art University</div>
+                                    <div className="company">New York</div>
                                     <p>
                                         Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri
                                 </p>
                                 </div>
-                                <div class="resume-item border-line-h">
-                                    <div class="date">2005 - 2006</div>
-                                    <div class="name">Programming Course</div>
-                                    <div class="company">Paris</div>
+                                <div className="resume-item border-line-h">
+                                    <div className="date">2005 - 2006</div>
+                                    <div className="name">Programming Course</div>
+                                    <div className="company">Paris</div>
                                     <p>
                                         Coursework - Git, WordPress, Javascript, iOS, Android.
                                 </p>
                                 </div>
-                                <div class="resume-item">
-                                    <div class="date">2004 - 2005</div>
-                                    <div class="name">Web Design Course</div>
-                                    <div class="company">London</div>
+                                <div className="resume-item">
+                                    <div className="date">2004 - 2005</div>
+                                    <div className="name">Web Design Course</div>
+                                    <div className="company">London</div>
                                     <p>
                                         Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript
                                 </p>
@@ -413,88 +413,88 @@ const App = () => <div class="page">
                             </div>
                         </div>
 
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
 
-                <div class="content skills">
+                <div className="content skills">
 
-                    <div class="title">My Skills</div>
+                    <div className="title">My Skills</div>
 
-                    <div class="row">
+                    <div className="row">
 
-                        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-                            <div class="skills-list">
-                                <div class="skill-title border-line-h">
-                                    <div class="icon"><i class="ion ion-easel"></i></div>
-                                    <div class="name">Design</div>
+                        <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                            <div className="skills-list">
+                                <div className="skill-title border-line-h">
+                                    <div className="icon"><i className="ion ion-easel"></i></div>
+                                    <div className="name">Design</div>
                                 </div>
                                 <ul>
-                                    <li class="border-line-h">
-                                        <div class="name">Web Design</div>
-                                        <div class="progress">
-                                            <div class="percentage" style={{width:`90%`}}></div>
+                                    <li className="border-line-h">
+                                        <div className="name">Web Design</div>
+                                        <div className="progress">
+                                            <div className="percentage" style={{ width: `90%` }}></div>
                                         </div>
                                     </li>
-                                    <li class="border-line-h">
-                                        <div class="name">Write Music</div>
-                                        <div class="progress">
-                                            <div class="percentage" style={{width:`65%`}}></div>
+                                    <li className="border-line-h">
+                                        <div className="name">Write Music</div>
+                                        <div className="progress">
+                                            <div className="percentage" style={{ width: `65%` }}></div>
                                         </div>
                                     </li>
-                                    <li class="border-line-h">
-                                        <div class="name">Photoshop</div>
-                                        <div class="progress">
-                                            <div class="percentage" style={{width:`75%`}}></div>
+                                    <li className="border-line-h">
+                                        <div className="name">Photoshop</div>
+                                        <div className="progress">
+                                            <div className="percentage" style={{ width: `75%` }}></div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="name">Graphic Design</div>
-                                        <div class="progress">
-                                            <div class="percentage" style={{width:`85%`}}></div>
+                                        <div className="name">Graphic Design</div>
+                                        <div className="progress">
+                                            <div className="percentage" style={{ width: `85%` }}></div>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
-                            <div class="skills-list">
-                                <div class="skill-title border-line-h">
-                                    <div class="icon"><i class="ion ion-code"></i></div>
-                                    <div class="name">Coding</div>
+                        <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                            <div className="skills-list">
+                                <div className="skill-title border-line-h">
+                                    <div className="icon"><i className="ion ion-code"></i></div>
+                                    <div className="name">Coding</div>
                                 </div>
                                 <ul>
-                                    <li class="border-line-h">
-                                        <div class="name">WordPress</div>
-                                        <div class="progress">
-                                            <div class="percentage" style={{width:`85%`}}></div>
+                                    <li className="border-line-h">
+                                        <div className="name">WordPress</div>
+                                        <div className="progress">
+                                            <div className="percentage" style={{ width: `85%` }}></div>
                                         </div>
                                     </li>
-                                    <li class="border-line-h">
-                                        <div class="name">PHP / MYSQL</div>
-                                        <div class="progress">
-                                            <div class="percentage" style={{width:`65%`}}></div>
+                                    <li className="border-line-h">
+                                        <div className="name">PHP / MYSQL</div>
+                                        <div className="progress">
+                                            <div className="percentage" style={{ width: `65%` }}></div>
                                         </div>
                                     </li>
-                                    <li class="border-line-h">
-                                        <div class="name">Angular / JavaScript</div>
-                                        <div class="progress">
-                                            <div class="percentage" style={{width:`75%`}}></div>
+                                    <li className="border-line-h">
+                                        <div className="name">Angular / JavaScript</div>
+                                        <div className="progress">
+                                            <div className="percentage" style={{ width: `75%` }}></div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="name">HTML / CSS</div>
-                                        <div class="progress">
-                                            <div class="percentage" style={{width:`90%`}}></div>
+                                        <div className="name">HTML / CSS</div>
+                                        <div className="progress">
+                                            <div className="percentage" style={{ width: `90%` }}></div>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
@@ -502,108 +502,108 @@ const App = () => <div class="page">
             </div>
         </div>
 
-        <div class="card-inner" id="works-card">
-            <div class="card-wrap">
+        <div className="card-inner" id="works-card">
+            <div className="card-wrap">
 
-                <div class="content works">
+                <div className="content works">
 
-                    <div class="title">Recent Works</div>
+                    <div className="title">Recent Works</div>
 
-                    <div class="filter-menu filter-button-group">
-                        <div class="f_btn active">
+                    <div className="filter-menu filter-button-group">
+                        <div className="f_btn active">
                             <label><input type="radio" name="fl_radio" value="grid-item" />All</label>
                         </div>
-                        <div class="f_btn">
+                        <div className="f_btn">
                             <label><input type="radio" name="fl_radio" value="photo" />Photo</label>
                         </div>
-                        <div class="f_btn">
+                        <div className="f_btn">
                             <label><input type="radio" name="fl_radio" value="video" />Video</label>
                         </div>
-                        <div class="f_btn">
+                        <div className="f_btn">
                             <label><input type="radio" name="fl_radio" value="music" />Music</label>
                         </div>
-                        <div class="f_btn">
+                        <div className="f_btn">
                             <label><input type="radio" name="fl_radio" value="design" />Design</label>
                         </div>
                     </div>
 
-                    <div class="row grid-items border-line-v">
+                    <div className="row grid-items border-line-v">
 
-                        <div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
-                            <div class="box-item">
-                                <div class="image">
-                                    <a href="images/works/work1.jpg" class="has-popup-image">
-                                        <img src="images/works/work1.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-image"></span>
+                        <div className="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+                            <div className="box-item">
+                                <div className="image">
+                                    <a href="assets/images/works/work1.jpg" className="has-popup-image">
+                                        <img src="assets/images/works/work1.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-image"></span>
                                         </span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="images/works/work1.jpg" class="name has-popup-image">Motorcycle Helmet</a>
-                                    <div class="category">Photo</div>
+                                <div className="desc">
+                                    <a href="assets/images/works/work1.jpg" className="name has-popup-image">Motorcycle Helmet</a>
+                                    <div className="category">Photo</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
-                            <div class="box-item">
-                                <div class="image">
-                                    <a href="https://vimeo.com/97102654" class="has-popup-video">
-                                        <img src="images/works/work2.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-videocamera"></span>
+                        <div className="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
+                            <div className="box-item">
+                                <div className="image">
+                                    <a href="https://vimeo.com/97102654" className="has-popup-video">
+                                        <img src="assets/images/works/work2.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-videocamera"></span>
                                         </span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="https://vimeo.com/97102654" class="name has-popup-video">Minimalism Shapes</a>
-                                    <div class="category">Video</div>
+                                <div className="desc">
+                                    <a href="https://vimeo.com/97102654" className="name has-popup-video">Minimalism Shapes</a>
+                                    <div className="category">Video</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
-                            <div class="box-item">
-                                <div class="image">
-                                    <a href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true" class="has-popup-music">
-                                        <img src="images/works/work3.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-music-note"></span>
+                        <div className="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
+                            <div className="box-item">
+                                <div className="image">
+                                    <a href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true" className="has-popup-music">
+                                        <img src="assets/images/works/work3.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-music-note"></span>
                                         </span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="#" class="name has-popup">Staircase</a>
-                                    <div class="category">Music</div>
+                                <div className="desc">
+                                    <a href="#" className="name has-popup">Staircase</a>
+                                    <div className="category">Music</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
-                            <div class="box-item">
-                                <div class="image">
-                                    <a href="#popup-1" class="has-popup-media">
-                                        <img src="images/works/work4.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-images"></span>
+                        <div className="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
+                            <div className="box-item">
+                                <div className="image">
+                                    <a href="#popup-1" className="has-popup-media">
+                                        <img src="assets/images/works/work4.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-images"></span>
                                         </span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="#popup-1" class="name has-popup-media">Mobile Application</a>
-                                    <div class="category">Design</div>
+                                <div className="desc">
+                                    <a href="#popup-1" className="name has-popup-media">Mobile Application</a>
+                                    <div className="category">Design</div>
                                 </div>
-                                <div id="popup-1" class="popup-box mfp-fade mfp-hide">
-                                    <div class="content">
-                                        <div class="image">
-                                            <img src="images/works/work4.jpg" alt="" />
+                                <div id="popup-1" className="popup-box mfp-fade mfp-hide">
+                                    <div className="content">
+                                        <div className="image">
+                                            <img src="assets/images/works/work4.jpg" alt="" />
                                         </div>
-                                        <div class="desc">
-                                            <div class="post-box">
+                                        <div className="desc">
+                                            <div className="post-box">
                                                 <h1>Mobile Application</h1>
-                                                <div class="blog-detail">Design</div>
-                                                <div class="blog-content">
+                                                <div className="blog-detail">Design</div>
+                                                <div className="blog-content">
                                                     <p>
                                                         So striking at of to welcomed resolved. Northward by described up household therefore
                                                         attention. Excellence decisively nay man yet impression for contrasted remarkably.
@@ -622,7 +622,7 @@ const App = () => <div class="page">
                                                         removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on.
                                                         Increasing sufficient everything men him admiration unpleasing sex.
                                                 </p>
-                                                    <ul class="list-style">
+                                                    <ul className="list-style">
                                                         <li>Greatest properly off ham exercise all.</li>
                                                         <li>Unsatiable invitation its possession nor off.</li>
                                                         <li>All difficulty estimating unreserved increasing the solicitude.</li>
@@ -632,9 +632,9 @@ const App = () => <div class="page">
                                                         up civil do an offer wound of.
                                                 </p>
                                                 </div>
-                                                <a href="#" class="button">
-                                                    <span class="text">View Project</span>
-                                                    <span class="arrow"></span>
+                                                <a href="#" className="button">
+                                                    <span className="text">View Project</span>
+                                                    <span className="arrow"></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -643,81 +643,81 @@ const App = () => <div class="page">
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
-                            <div class="box-item">
-                                <div class="image">
-                                    <a href="images/works/work5.jpg" class="has-popup-image">
-                                        <img src="images/works/work5.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-image"></span>
+                        <div className="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+                            <div className="box-item">
+                                <div className="image">
+                                    <a href="assets/images/works/work5.jpg" className="has-popup-image">
+                                        <img src="assets/images/works/work5.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-image"></span>
                                         </span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="images/works/work5.jpg" class="name has-popup-image">Gereal Travels</a>
-                                    <div class="category">Photo</div>
+                                <div className="desc">
+                                    <a href="assets/images/works/work5.jpg" className="name has-popup-image">Gereal Travels</a>
+                                    <div className="category">Photo</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
-                            <div class="box-item">
-                                <div class="image">
-                                    <a href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true" class="has-popup-music">
-                                        <img src="images/works/work8.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-music-note"></span>
+                        <div className="col col-d-6 col-t-6 col-m-12 grid-item music border-line-h">
+                            <div className="box-item">
+                                <div className="image">
+                                    <a href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true" className="has-popup-music">
+                                        <img src="assets/images/works/work8.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-music-note"></span>
                                         </span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="#" class="name has-popup">Daylight Entrance</a>
-                                    <div class="category">Music</div>
+                                <div className="desc">
+                                    <a href="#" className="name has-popup">Daylight Entrance</a>
+                                    <div className="category">Music</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
-                            <div class="box-item">
-                                <div class="image">
-                                    <a href="https://vimeo.com/97102654" class="has-popup-video">
-                                        <img src="images/works/work6.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-videocamera"></span>
+                        <div className="col col-d-6 col-t-6 col-m-12 grid-item video border-line-h">
+                            <div className="box-item">
+                                <div className="image">
+                                    <a href="https://vimeo.com/97102654" className="has-popup-video">
+                                        <img src="assets/images/works/work6.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-videocamera"></span>
                                         </span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="https://vimeo.com/97102654" class="name has-popup-video">Architecture</a>
-                                    <div class="category">Video</div>
+                                <div className="desc">
+                                    <a href="https://vimeo.com/97102654" className="name has-popup-video">Architecture</a>
+                                    <div className="category">Video</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
-                            <div class="box-item">
-                                <div class="image">
-                                    <a href="#popup-2" class="has-popup-media">
-                                        <img src="images/works/work7.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-images"></span>
+                        <div className="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
+                            <div className="box-item">
+                                <div className="image">
+                                    <a href="#popup-2" className="has-popup-media">
+                                        <img src="assets/images/works/work7.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-images"></span>
                                         </span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="#popup-2" class="name has-popup-media">Social Website</a>
-                                    <div class="category">Design</div>
+                                <div className="desc">
+                                    <a href="#popup-2" className="name has-popup-media">Social Website</a>
+                                    <div className="category">Design</div>
                                 </div>
-                                <div id="popup-2" class="popup-box mfp-fade mfp-hide">
-                                    <div class="content">
-                                        <div class="image">
-                                            <img src="images/works/work7.jpg" alt="" />
+                                <div id="popup-2" className="popup-box mfp-fade mfp-hide">
+                                    <div className="content">
+                                        <div className="image">
+                                            <img src="assets/images/works/work7.jpg" alt="" />
                                         </div>
-                                        <div class="desc">
-                                            <div class="post-box">
+                                        <div className="desc">
+                                            <div className="post-box">
                                                 <h1>Mobile Application</h1>
-                                                <div class="blog-detail">Design</div>
-                                                <div class="blog-content">
+                                                <div className="blog-detail">Design</div>
+                                                <div className="blog-content">
                                                     <p>
                                                         So striking at of to welcomed resolved. Northward by described up household therefore
                                                         attention. Excellence decisively nay man yet impression for contrasted remarkably.
@@ -736,7 +736,7 @@ const App = () => <div class="page">
                                                         removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on.
                                                         Increasing sufficient everything men him admiration unpleasing sex.
                                                 </p>
-                                                    <ul class="list-style">
+                                                    <ul className="list-style">
                                                         <li>Greatest properly off ham exercise all.</li>
                                                         <li>Unsatiable invitation its possession nor off.</li>
                                                         <li>All difficulty estimating unreserved increasing the solicitude.</li>
@@ -746,9 +746,9 @@ const App = () => <div class="page">
                                                         up civil do an offer wound of.
                                                 </p>
                                                 </div>
-                                                <a href="#" class="button">
-                                                    <span class="text">View Project</span>
-                                                    <span class="arrow"></span>
+                                                <a href="#" className="button">
+                                                    <span className="text">View Project</span>
+                                                    <span className="arrow"></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -757,7 +757,7 @@ const App = () => <div class="page">
                             </div>
                         </div>
 
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
@@ -765,70 +765,70 @@ const App = () => <div class="page">
             </div>
         </div>
 
-        <div class="card-inner blog" id="blog-card">
-            <div class="card-wrap">
+        <div className="card-inner blog" id="blog-card">
+            <div className="card-wrap">
 
-                <div class="content blog">
+                <div className="content blog">
 
-                    <div class="title">Latest Posts</div>
+                    <div className="title">Latest Posts</div>
 
-                    <div class="row border-line-v">
+                    <div className="row border-line-v">
 
-                        <div class="col col-d-12 col-t-12 col-m-12 border-line-h">
-                            <div class="box-item">
-                                <div class="image">
+                        <div className="col col-d-12 col-t-12 col-m-12 border-line-h">
+                            <div className="box-item">
+                                <div className="image">
                                     <a href="blog-post.html">
-                                        <img src="images/blog/blog1.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-document-text"></span>
+                                        <img src="assets/images/blog/blog1.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-document-text"></span>
                                         </span>
-                                        <span class="date"><strong>20</strong>Jun</span>
+                                        <span className="date"><strong>20</strong>Jun</span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="blog-post.html" class="name">By spite about do of do allow blush</a>
-                                    <div class="category">Design</div>
+                                <div className="desc">
+                                    <a href="blog-post.html" className="name">By spite about do of do allow blush</a>
+                                    <div className="category">Design</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-12 col-t-12 col-m-12 border-line-h">
-                            <div class="box-item">
-                                <div class="image">
+                        <div className="col col-d-12 col-t-12 col-m-12 border-line-h">
+                            <div className="box-item">
+                                <div className="image">
                                     <a href="blog-post.html">
-                                        <img src="images/blog/blog2.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-document-text"></span>
+                                        <img src="assets/images/blog/blog2.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-document-text"></span>
                                         </span>
-                                        <span class="date"><strong>19</strong>Jun</span>
+                                        <span className="date"><strong>19</strong>Jun</span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="blog-post.html" class="name">Two Before Arrow Not Relied</a>
-                                    <div class="category">Coding</div>
+                                <div className="desc">
+                                    <a href="blog-post.html" className="name">Two Before Arrow Not Relied</a>
+                                    <div className="category">Coding</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col col-d-12 col-t-12 col-m-12 border-line-h">
-                            <div class="box-item">
-                                <div class="image">
+                        <div className="col col-d-12 col-t-12 col-m-12 border-line-h">
+                            <div className="box-item">
+                                <div className="image">
                                     <a href="blog-post.html">
-                                        <img src="images/blog/blog3.jpg" alt="" />
-                                        <span class="info">
-                                            <span class="ion ion-document-text"></span>
+                                        <img src="assets/images/blog/blog3.jpg" alt="" />
+                                        <span className="info">
+                                            <span className="ion ion-document-text"></span>
                                         </span>
-                                        <span class="date"><strong>20</strong>Jun</span>
+                                        <span className="date"><strong>20</strong>Jun</span>
                                     </a>
                                 </div>
-                                <div class="desc">
-                                    <a href="blog-post.html" class="name">By spite about do of do allow blush</a>
-                                    <div class="category">Travel</div>
+                                <div className="desc">
+                                    <a href="blog-post.html" className="name">By spite about do of do allow blush</a>
+                                    <div className="category">Travel</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
@@ -836,17 +836,17 @@ const App = () => <div class="page">
             </div>
         </div>
 
-        <div class="card-inner contacts" id="contacts-card">
-            <div class="card-wrap">
+        <div className="card-inner contacts" id="contacts-card">
+            <div className="card-wrap">
 
-                <div class="content contacts">
+                <div className="content contacts">
 
-                    <div class="title">Get in Touch</div>
+                    <div className="title">Get in Touch</div>
 
-                    <div class="row">
-                        <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-                            <div class="map" id="map"></div>
-                            <div class="info-list">
+                    <div className="row">
+                        <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
+                            <div className="map" id="map"></div>
+                            <div className="info-list">
                                 <ul>
                                     <li><strong>Address . . . . .</strong> California, USA</li>
                                     <li><strong>Email . . . . .</strong> adlard@example.com</li>
@@ -855,49 +855,49 @@ const App = () => <div class="page">
                                 </ul>
                             </div>
                         </div>
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
 
-                <div class="content contacts">
+                <div className="content contacts">
 
-                    <div class="title">Contact Form</div>
+                    <div className="title">Contact Form</div>
 
-                    <div class="row">
-                        <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-                            <div class="contact_form">
+                    <div className="row">
+                        <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
+                            <div className="contact_form">
                                 <form id="cform" method="post">
-                                    <div class="row">
-                                        <div class="col col-d-6 col-t-6 col-m-12">
-                                            <div class="group-val">
+                                    <div className="row">
+                                        <div className="col col-d-6 col-t-6 col-m-12">
+                                            <div className="group-val">
                                                 <input type="text" name="name" placeholder="Full Name" />
                                             </div>
                                         </div>
-                                        <div class="col col-d-6 col-t-6 col-m-12">
-                                            <div class="group-val">
+                                        <div className="col col-d-6 col-t-6 col-m-12">
+                                            <div className="group-val">
                                                 <input type="text" name="email" placeholder="Email Address" />
                                             </div>
                                         </div>
-                                        <div class="col col-d-12 col-t-12 col-m-12">
-                                            <div class="group-val">
+                                        <div className="col col-d-12 col-t-12 col-m-12">
+                                            <div className="group-val">
                                                 <textarea name="message" placeholder="Your Message"></textarea>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="align-left">
-                                        <a href="#" class="button" onclick="$('#cform').submit(); return false;">
-                                            <span class="text">Send Message</span>
-                                            <span class="arrow"></span>
-                                        </a>
+                                    <div className="align-left">
+                                        {/* <a href="#" className="button" onClick="$('#cform').submit(); return false;">
+                                            <span className="text">Send Message</span>
+                                            <span className="arrow"></span>
+                                        </a> */}
                                     </div>
                                 </form>
-                                <div class="alert-success">
+                                <div className="alert-success">
                                     <p>Thanks, your message is sent successfully.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                     </div>
 
                 </div>
