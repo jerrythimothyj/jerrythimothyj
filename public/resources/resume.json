@@ -1,0 +1,145 @@
+{
+    "educations": [
+        {
+            "year": "2011",
+            "course": "B.E Computer Science and Engineering",
+            "institute": "Oxford Engineering College, Tiruchirappalli"
+        },
+        {
+            "year": "2007",
+            "course": "HSC",
+            "institute": "National College Higher Secondary School, Tiruchirappalli"
+        },
+        {
+            "year": "2005",
+            "course": "SSLC",
+            "institute": "National College Higher Secondary School, Tiruchirappalli"
+        }
+    ],
+    "experiences": [
+        {
+            "dateFrom": "March, 2017",
+            "dateTo": "Present",
+            "organization": "Xebia IT Architects",
+            "designation": "Consultant"
+        },
+        {
+            "dateFrom": "January, 2016",
+            "dateTo": "March, 2017",
+            "organization": "Tata Consultancy Services",
+            "designation": "Systems Engineer"
+        },
+        {
+            "dateFrom": "May, 2012",
+            "dateTo": "January, 2016",
+            "organization": "Adela Software & Services",
+            "designation": "Software Engineer"
+        }
+    ],
+    "skills": {
+        "primary": [
+            {
+                "name": "Angular JS",
+                "rating": "75%"
+            },
+            {
+                "name": "React",
+                "rating": "70%"
+            },
+            {
+                "name": "Javascript ES6",
+                "rating": "65%"
+            },
+            {
+                "name": "Jade / HTML5",
+                "rating": "70%"
+            },
+            {
+                "name": "CSS3 / SASS / LESS",
+                "rating": "70%"
+            },
+            {
+                "name": "Bootstrap",
+                "rating": "65%"
+            }
+        ],
+        "secondary": [
+            {
+                "name": "JQuery",
+                "rating": "55%"
+            },
+            {
+                "name": "Typescript",
+                "rating": "50%"
+            },
+            {
+                "name": "Angular",
+                "rating": "20%"
+            },
+            {
+                "name": "Node JS / Express JS",
+                "rating": "40%"
+            },
+            {
+                "name": "PHP",
+                "rating": "50%"
+            }
+        ],
+        "databases": [
+            {
+                "name": "MySQL",
+                "rating": "55%"
+            },
+            {
+                "name": "MSSQL",
+                "rating": "55%"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Gulp",
+                "rating": "70%"
+            },
+            {
+                "name": "NPM / Bower / Yarn",
+                "rating": "70%"
+            },
+            {
+                "name": "Webpack",
+                "rating": "50%"
+            },
+            {
+                "name": "GIT",
+                "rating": "70%"
+            },
+            {
+                "name": "Jenkins",
+                "rating": "60%"
+            }
+        ],
+        "multimedia": [
+            {
+                "name": "Photoshop",
+                "rating": "55%"
+            },
+            {
+                "name": "Flash / Maya",
+                "rating": "30%"
+            }
+        ],
+        "testing": [
+            {
+                "name": "Jest - Enzyme / CoffeeScript - Jasmine / Protractor - Selenium",
+                "rating": "70%"
+            },
+            {
+                "name": "Karma - Jasmine",
+                "rating": "60%"
+            },
+            {
+                "name": "Manual Testing",
+                "rating": "60%"
+            }
+        ]
+    }
+}

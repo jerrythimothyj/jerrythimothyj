@@ -1,9 +1,11 @@
 import { all, call } from "redux-saga/effects";
-import watcherSaga from './containers/profile/sagas';
+import profile from './containers/profile/sagas';
+import resume from './containers/resume/sagas';
 
 
 export default function* saga() {
     yield all([
-        call(watcherSaga)
+        call(profile),
+        call(resume)
     ])
 }

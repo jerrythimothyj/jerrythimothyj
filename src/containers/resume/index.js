@@ -1,167 +1,218 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from "react-redux";
+import { GET_RESUME_DATA } from './actions';
+import { ExperienceItem, EducationItem, SkillItem } from '../../components'
 
-const Resume = () => <div className="card-inner" id="resume-card">
-    <div className="card-wrap">
+class Resume extends Component {
+    componentDidMount() {
+        const { onRequestResumeData } = this.props;
+        onRequestResumeData();
+    }
 
-        <div className="content resume">
+    render() {
+        const { resumeData } = this.props;
 
-            <div className="title">Resume</div>
+        return (
 
-            <div className="row">
+            <div className="card-inner" id="resume-card">
+                <div className="card-wrap">
 
-                <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
-                    <div className="resume-title border-line-h">
-                        <div className="icon"><i className="ion ion-briefcase"></i></div>
-                        <div className="name">Experience</div>
+                    <div className="content resume">
+
+                        <div className="title">Resume</div>
+
+                        <div className="row">
+
+                            <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div className="resume-title border-line-h">
+                                    <div className="icon"><i className="ion ion-briefcase"></i></div>
+                                    <div className="name">Experience</div>
+                                </div>
+                                <div className="resume-items">
+                                    {resumeData && resumeData.experiences.map((experience, index) => {
+                                        return <ExperienceItem
+                                            experience={experience}
+                                            index={index}
+                                            isFirst={index === 0}
+                                            isLast={index === resumeData.experiences.length - 1}
+                                            key={index}
+                                        />
+                                    })}
+                                </div>
+                            </div>
+
+                            <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div className="resume-title border-line-h">
+                                    <div className="icon"><i className="ion ion-university"></i></div>
+                                    <div className="name">Education</div>
+                                </div>
+                                <div className="resume-items">
+                                    {resumeData && resumeData.educations.map((education, index) => {
+                                        return <EducationItem
+                                            education={education}
+                                            index={index}
+                                            isLast={index === resumeData.educations.length - 1}
+                                            key={index}
+                                        />
+                                    })}
+                                </div>
+                            </div>
+
+                            <div className="clear"></div>
+                        </div>
+
                     </div>
-                    <div className="resume-items">
-                        <div className="resume-item border-line-h active">
-                            <div className="date">2013 - Present</div>
-                            <div className="name">Art Director</div>
-                            <div className="company">Facebook Inc.</div>
-                            <p>
-                                Collaborate with creative and development teams on the execution of ideas.
-                    </p>
+
+                    <div className="content skills">
+
+                        <div className="title">My Skills</div>
+
+                        <div className="row">
+
+                            <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div className="skills-list">
+                                    <div className="skill-title border-line-h">
+                                        <div className="icon"><i className="ion ion-easel"></i></div>
+                                        <div className="name">Primary</div>
+                                    </div>
+                                    <ul>
+                                        {resumeData && resumeData.skills && resumeData.skills.primary.map((skill, index) => {
+                                            return <SkillItem
+                                                skill={skill}
+                                                index={index}
+                                                isLast={index === resumeData.skills.primary.length - 1}
+                                                key={index}
+                                            />
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div className="skills-list">
+                                    <div className="skill-title border-line-h">
+                                        <div className="icon"><i className="ion ion-code"></i></div>
+                                        <div className="name">Secondary</div>
+                                    </div>
+                                    <ul>
+                                        {resumeData && resumeData.skills && resumeData.skills.secondary.map((skill, index) => {
+                                            return <SkillItem
+                                                skill={skill}
+                                                index={index}
+                                                isLast={index === resumeData.skills.secondary.length - 1}
+                                                key={index}
+                                            />
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="clear"></div>
                         </div>
-                        <div className="resume-item border-line-h">
-                            <div className="date">2011 - 2012</div>
-                            <div className="name">Front-end Developer</div>
-                            <div className="company">Google Inc.</div>
-                            <p>
-                                Monitored technical aspects of the front-end delivery for several projects.
-                    </p>
+
+                        <div className="row">
+
+                            <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div className="skills-list">
+                                    <div className="skill-title border-line-h">
+                                        <div className="icon"><i className="ion ion-easel"></i></div>
+                                        <div className="name">Databases</div>
+                                    </div>
+                                    <ul>
+                                        {resumeData && resumeData.skills && resumeData.skills.databases.map((skill, index) => {
+                                            return <SkillItem
+                                                skill={skill}
+                                                index={index}
+                                                isLast={index === resumeData.skills.databases.length - 1}
+                                                key={index}
+                                            />
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div className="skills-list">
+                                    <div className="skill-title border-line-h">
+                                        <div className="icon"><i className="ion ion-code"></i></div>
+                                        <div className="name">Tools</div>
+                                    </div>
+                                    <ul>
+                                        {resumeData && resumeData.skills && resumeData.skills.tools.map((skill, index) => {
+                                            return <SkillItem
+                                                skill={skill}
+                                                index={index}
+                                                isLast={index === resumeData.skills.tools.length - 1}
+                                                key={index}
+                                            />
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="clear"></div>
                         </div>
-                        <div className="resume-item">
-                            <div className="date">2009 - 2010</div>
-                            <div className="name">Senior Developer</div>
-                            <div className="company">Abc Inc.</div>
-                            <p>
-                                Optimize website performance using latest technology.
-                    </p>
+
+                        <div className="row">
+
+                            <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div className="skills-list">
+                                    <div className="skill-title border-line-h">
+                                        <div className="icon"><i className="ion ion-easel"></i></div>
+                                        <div className="name">Multimedia</div>
+                                    </div>
+                                    <ul>
+                                        {resumeData && resumeData.skills && resumeData.skills.multimedia.map((skill, index) => {
+                                            return <SkillItem
+                                                skill={skill}
+                                                index={index}
+                                                isLast={index === resumeData.skills.multimedia.length - 1}
+                                                key={index}
+                                            />
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
+                                <div className="skills-list">
+                                    <div className="skill-title border-line-h">
+                                        <div className="icon"><i className="ion ion-code"></i></div>
+                                        <div className="name">Testing</div>
+                                    </div>
+                                    <ul>
+                                        {resumeData && resumeData.skills && resumeData.skills.testing.map((skill, index) => {
+                                            return <SkillItem
+                                                skill={skill}
+                                                index={index}
+                                                isLast={index === resumeData.skills.testing.length - 1}
+                                                key={index}
+                                            />
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div className="clear"></div>
                         </div>
+
                     </div>
+
                 </div>
+            </div>)
+    }
+}
 
-                <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
-                    <div className="resume-title border-line-h">
-                        <div className="icon"><i className="ion ion-university"></i></div>
-                        <div className="name">Education</div>
-                    </div>
-                    <div className="resume-items">
-                        <div className="resume-item border-line-h">
-                            <div className="date">2006 - 2008</div>
-                            <div className="name">Art University</div>
-                            <div className="company">New York</div>
-                            <p>
-                                Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri
-                    </p>
-                        </div>
-                        <div className="resume-item border-line-h">
-                            <div className="date">2005 - 2006</div>
-                            <div className="name">Programming Course</div>
-                            <div className="company">Paris</div>
-                            <p>
-                                Coursework - Git, WordPress, Javascript, iOS, Android.
-                    </p>
-                        </div>
-                        <div className="resume-item">
-                            <div className="date">2004 - 2005</div>
-                            <div className="name">Web Design Course</div>
-                            <div className="company">London</div>
-                            <p>
-                                Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript
-                    </p>
-                        </div>
-                    </div>
-                </div>
+const mapStateToProps = state => {
+    return {
+        resumeData: state.resume.resumeData
+    };
+};
 
-                <div className="clear"></div>
-            </div>
+const mapDispatchToProps = dispatch => {
+    return {
+        onRequestResumeData: () => dispatch({ type: GET_RESUME_DATA })
+    };
+};
 
-        </div>
-
-        <div className="content skills">
-
-            <div className="title">My Skills</div>
-
-            <div className="row">
-
-                <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
-                    <div className="skills-list">
-                        <div className="skill-title border-line-h">
-                            <div className="icon"><i className="ion ion-easel"></i></div>
-                            <div className="name">Design</div>
-                        </div>
-                        <ul>
-                            <li className="border-line-h">
-                                <div className="name">Web Design</div>
-                                <div className="progress">
-                                    <div className="percentage" style={{ width: `90%` }}></div>
-                                </div>
-                            </li>
-                            <li className="border-line-h">
-                                <div className="name">Write Music</div>
-                                <div className="progress">
-                                    <div className="percentage" style={{ width: `65%` }}></div>
-                                </div>
-                            </li>
-                            <li className="border-line-h">
-                                <div className="name">Photoshop</div>
-                                <div className="progress">
-                                    <div className="percentage" style={{ width: `75%` }}></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="name">Graphic Design</div>
-                                <div className="progress">
-                                    <div className="percentage" style={{ width: `85%` }}></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
-                    <div className="skills-list">
-                        <div className="skill-title border-line-h">
-                            <div className="icon"><i className="ion ion-code"></i></div>
-                            <div className="name">Coding</div>
-                        </div>
-                        <ul>
-                            <li className="border-line-h">
-                                <div className="name">WordPress</div>
-                                <div className="progress">
-                                    <div className="percentage" style={{ width: `85%` }}></div>
-                                </div>
-                            </li>
-                            <li className="border-line-h">
-                                <div className="name">PHP / MYSQL</div>
-                                <div className="progress">
-                                    <div className="percentage" style={{ width: `65%` }}></div>
-                                </div>
-                            </li>
-                            <li className="border-line-h">
-                                <div className="name">Angular / JavaScript</div>
-                                <div className="progress">
-                                    <div className="percentage" style={{ width: `75%` }}></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="name">HTML / CSS</div>
-                                <div className="progress">
-                                    <div className="percentage" style={{ width: `90%` }}></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div className="clear"></div>
-            </div>
-
-        </div>
-
-    </div>
-</div>
-
-export default Resume;
+export default connect(mapStateToProps, mapDispatchToProps)(Resume);
