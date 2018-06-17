@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
+import { GET_PROFILE_DATA } from './actions';
 
 
 class Profile extends Component {
     componentDidMount() {
-        const { onRequestDog } = this.props;
-        onRequestDog();
+        const { onRequestProfileData } = this.props;
+        onRequestProfileData();
     }
 
     render() {
+        const { profileData } = this.props;
+
         return (
             <div className="card-started" id="home-card" >
 
@@ -21,22 +24,20 @@ class Profile extends Component {
                         <img src="assets/images/profile.png" alt="" />
                     </div>
 
+                    {profileData && <div>
+                            <div className="title">{profileData.name}</div>
+                            <div className="subtitle">{profileData.designation}</div>
 
-                    <div className="title">Jerry Thimothy J</div>
-                    <div className="subtitle">Consultant at Xebia | Web Developer | UI Developer | Javascript Developer | PHP Developer | Aquarist</div>
-
-
-                    <div className="social">
-                        <a target="_blank" href="https://dribbble.com/"><span className="fab fa-dribbble"></span></a>
-                        <a target="_blank" href="https://twitter.com/"><span className="fab fa-twitter"></span></a>
-                        <a target="_blank" href="https://github.com/"><span className="fab fa-github"></span></a>
-                        <a target="_blank" href="https://www.spotify.com/"><span className="fab fa-spotify"></span></a>
-                        <a target="_blank" href="https://stackoverflow.com/"><span className="fab fa-stack-overflow"></span></a>
-                    </div>
+                            <div className="social">
+                                <a target="_blank" href={profileData.github}><span className="fab fa-github"></span></a>
+                                <a target="_blank" href={profileData.linkedin}><span className="fab fa-linkedin"></span></a>
+                                <a target="_blank" href={profileData.facebook}><span className="fab fa-facebook"></span></a>
+                            </div>
+                    </div>}
 
 
-                    <div className="lnks">
-                        <a href="#" className="lnk">
+                    {profileData && <div className="lnks">
+                        <a href={profileData.resume_link} target="_blank" className="lnk">
                             <span className="text">Download CV</span>
                             <span className="ion ion-archive"></span>
                         </a>
@@ -45,6 +46,7 @@ class Profile extends Component {
                             <span className="arrow"></span>
                         </a>
                     </div>
+                    }
 
                 </div>
 
@@ -55,15 +57,13 @@ class Profile extends Component {
 
 const mapStateToProps = state => {
     return {
-        fetching: state.fetching,
-        dog: state.dog,
-        error: state.error
+        profileData: state.profile.profileData
     };
 };
 
 const mapDispatchToProps = dispatch => {
     return {
-        onRequestDog: () => dispatch({ type: "API_CALL_REQUEST" })
+        onRequestProfileData: () => dispatch({ type: GET_PROFILE_DATA })
     };
 };
 

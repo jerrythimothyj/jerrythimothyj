@@ -1,8 +1,8 @@
 import axios from "axios";
 
-export default function fetchDog() {
+export default function fetchProfileData() {
     return axios({
       method: "get",
-      url: "https://dog.ceo/api/breeds/image/random"
+      url: "resources/profile.json"
     });
   }
