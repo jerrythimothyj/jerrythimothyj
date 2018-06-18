@@ -1,7 +1,7 @@
-import {STORE_PROFILE_DATA} from './actions';
+import { STORE_PROFILE_DATA } from './actions';
 
 const initialState = {
-  profileData: null
+  profileData: null,
 };
 
 export default function reducer(state = initialState, action) {
