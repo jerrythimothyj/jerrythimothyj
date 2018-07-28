@@ -1,8 +1,8 @@
-import axios from "axios";
+import axios from 'axios';
 
 export default function fetchResumeData() {
-    return axios({
-      method: "get",
-      url: "resources/resume.json"
-    });
-  }
+  return axios({
+    method: 'get',
+    url: 'resources/resume.json',
+  });
+}

@@ -7,4 +7,5 @@ import Works from './works';
 import Blog from './blog';
 import Contacts from './contacts';
 
-export { App, Header, Profile, About, Resume, Works, Blog, Contacts }
+export { App, Header, Profile, About, Resume, Works, Blog, Contacts };
+

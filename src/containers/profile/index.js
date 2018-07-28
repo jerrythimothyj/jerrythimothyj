@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -10,6 +12,7 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   onRequestProfileData: () => dispatch({ type: GET_PROFILE_DATA }),
 });
+
 
 class Profile extends Component {
   componentDidMount() {

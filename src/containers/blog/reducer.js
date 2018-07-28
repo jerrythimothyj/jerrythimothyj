@@ -1,13 +1,13 @@
-import { STORE_RESUME_DATA } from './actions';
+import { STORE_BLOG_DATA } from './actions';
 
 const initialState = {
-  resumeData: null,
+  blogData: null,
 };
 
 export default function reducer(state = initialState, action) {
   switch (action.type) {
-    case STORE_RESUME_DATA:
-      return { ...state, resumeData: action.resumeData };
+    case STORE_BLOG_DATA:
+      return { ...state, blogData: action.blogData };
     default:
       return state;
   }
