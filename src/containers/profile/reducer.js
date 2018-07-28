@@ -1,7 +1,14 @@
 import { STORE_PROFILE_DATA } from './actions';
 
 const initialState = {
-  profileData: null,
+  profileData: {
+    name: '',
+    designation: '',
+    github: '',
+    linkedin: '',
+    facebook: '',
+    resume_link: '',
+  },
 };
 
 export default function reducer(state = initialState, action) {

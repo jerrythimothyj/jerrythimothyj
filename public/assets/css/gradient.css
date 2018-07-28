@@ -14,8 +14,8 @@
 
 .background.gradient {
   background: #50a3a2;
-  background: -webkit-linear-gradient(top left, #c33764 0%, #c446da 100%);
-  background: linear-gradient(to bottom right, #c33764 0%, #c446da 100%);
+  background: -webkit-linear-gradient(top left, #cc00cc 0%, #660066 100%);
+  background: linear-gradient(to bottom right, #cc00cc 0%, #660066 100%);
   position: fixed;
   overflow: hidden;
   top: 0;

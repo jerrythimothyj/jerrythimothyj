@@ -1,7 +1,18 @@
 import { STORE_RESUME_DATA } from './actions';
 
 const initialState = {
-  resumeData: null,
+  resumeData: {
+    educations: [],
+    experiences: [],
+    skills: {
+      primary: [],
+      secondary: [],
+      databases: [],
+      tools: [],
+      multimedia: [],
+      testing: [],
+    },
+  },
 };
 
 export default function reducer(state = initialState, action) {
