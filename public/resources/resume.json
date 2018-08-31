@@ -39,12 +39,12 @@
     "skills": {
         "primary": [
             {
-                "name": "Angular JS",
-                "rating": "75%"
-            },
-            {
                 "name": "React",
                 "rating": "70%"
+            },
+            {
+                "name": "Angular JS",
+                "rating": "75%"
             },
             {
                 "name": "Javascript ES6",

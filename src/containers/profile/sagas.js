@@ -10,7 +10,5 @@ function* getProfileData() {
 }
 
 export default function* watcherSaga() {
-  yield all([
-    takeLatest(GET_PROFILE_DATA, getProfileData),
-  ]);
+  yield all([takeLatest(GET_PROFILE_DATA, getProfileData)]);
 }

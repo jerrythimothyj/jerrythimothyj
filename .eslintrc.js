@@ -10,6 +10,8 @@ module.exports = {
         specialLink: ["hrefLeft", "hrefRight"],
         aspects: ["noHref", "invalidHref", "preferButton"]
       }
-    ]
+    ],
+    "linebreak-style": ["error", "windows"],
+    "comma-dangle": ["error", "never"]
   }
 };

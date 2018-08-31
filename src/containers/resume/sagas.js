@@ -10,7 +10,5 @@ function* getResumeData() {
 }
 
 export default function* watcherSaga() {
-  yield all([
-    takeLatest(GET_RESUME_DATA, getResumeData),
-  ]);
+  yield all([takeLatest(GET_RESUME_DATA, getResumeData)]);
 }

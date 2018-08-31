@@ -15,8 +15,8 @@ SkillItem.propTypes = {
   isLast: PropTypes.bool.isRequired,
   skill: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    rating: PropTypes.string.isRequired,
-  }).isRequired,
+    rating: PropTypes.string.isRequired
+  }).isRequired
 };
 
 export default SkillItem;

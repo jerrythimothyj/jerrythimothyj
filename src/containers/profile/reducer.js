@@ -7,8 +7,8 @@ const initialState = {
     github: '',
     linkedin: '',
     facebook: '',
-    resume_link: '',
-  },
+    resume_link: ''
+  }
 };
 
 export default function reducer(state = initialState, action) {

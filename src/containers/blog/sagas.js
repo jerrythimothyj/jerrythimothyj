@@ -10,7 +10,5 @@ function* getBlogData() {
 }
 
 export default function* watcherSaga() {
-  yield all([
-    takeLatest(GET_BLOG_DATA, getBlogData),
-  ]);
+  yield all([takeLatest(GET_BLOG_DATA, getBlogData)]);
 }

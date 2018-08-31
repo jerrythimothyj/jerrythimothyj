@@ -10,7 +10,5 @@ function* getContactData() {
 }
 
 export default function* watcherSaga() {
-  yield all([
-    takeLatest(GET_CONTACT_DATA, getContactData),
-  ]);
+  yield all([takeLatest(GET_CONTACT_DATA, getContactData)]);
 }

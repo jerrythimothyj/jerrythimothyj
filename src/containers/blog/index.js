@@ -4,11 +4,11 @@ import { connect } from 'react-redux';
 import { GET_BLOG_DATA } from './actions';
 
 const mapStateToProps = state => ({
-  profileData: state.profile.profileData,
+  profileData: state.profile.profileData
 });
 
 const mapDispatchToProps = dispatch => ({
-  onRequestBlogData: () => dispatch({ type: GET_BLOG_DATA }),
+  onRequestBlogData: () => dispatch({ type: GET_BLOG_DATA })
 });
 class Blog extends Component {
   componentDidMount() {
@@ -20,13 +20,10 @@ class Blog extends Component {
     return (
       <div className="card-inner blog" id="blog-card">
         <div className="card-wrap">
-
           <div className="content blog">
-
             <div className="title">Latest Posts</div>
 
             <div className="row border-line-v">
-
               <div className="col col-d-12 col-t-12 col-m-12 border-line-h">
                 <div className="box-item">
                   <div className="image">
@@ -35,11 +32,15 @@ class Blog extends Component {
                       <span className="info">
                         <span className="ion ion-document-text" />
                       </span>
-                      <span className="date"><strong>20</strong>Jun</span>
+                      <span className="date">
+                        <strong>20</strong>Jun
+                      </span>
                     </a>
                   </div>
                   <div className="desc">
-                    <a href="blog-post.html" className="name">By spite about do of do allow blush</a>
+                    <a href="blog-post.html" className="name">
+                      By spite about do of do allow blush
+                    </a>
                     <div className="category">Design</div>
                   </div>
                 </div>
@@ -53,11 +54,15 @@ class Blog extends Component {
                       <span className="info">
                         <span className="ion ion-document-text" />
                       </span>
-                      <span className="date"><strong>19</strong>Jun</span>
+                      <span className="date">
+                        <strong>19</strong>Jun
+                      </span>
                     </a>
                   </div>
                   <div className="desc">
-                    <a href="blog-post.html" className="name">Two Before Arrow Not Relied</a>
+                    <a href="blog-post.html" className="name">
+                      Two Before Arrow Not Relied
+                    </a>
                     <div className="category">Coding</div>
                   </div>
                 </div>
@@ -71,11 +76,15 @@ class Blog extends Component {
                       <span className="info">
                         <span className="ion ion-document-text" />
                       </span>
-                      <span className="date"><strong>20</strong>Jun</span>
+                      <span className="date">
+                        <strong>20</strong>Jun
+                      </span>
                     </a>
                   </div>
                   <div className="desc">
-                    <a href="blog-post.html" className="name">By spite about do of do allow blush</a>
+                    <a href="blog-post.html" className="name">
+                      By spite about do of do allow blush
+                    </a>
                     <div className="category">Travel</div>
                   </div>
                 </div>
@@ -83,9 +92,7 @@ class Blog extends Component {
 
               <div className="clear" />
             </div>
-
           </div>
-
         </div>
       </div>
     );
@@ -93,7 +100,10 @@ class Blog extends Component {
 }
 
 Blog.propTypes = {
-  onRequestBlogData: PropTypes.func.isRequired,
+  onRequestBlogData: PropTypes.func.isRequired
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Blog);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Blog);

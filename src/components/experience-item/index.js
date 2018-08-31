@@ -7,7 +7,7 @@ const ExperienceItem = props => (
     className={classNames(
       'resume-item',
       { 'border-line-h': !props.isLast },
-      { active: props.isFirst },
+      { active: props.isFirst }
     )}
   >
     <div className="date">
@@ -25,8 +25,8 @@ ExperienceItem.propTypes = {
     dateFrom: PropTypes.string.isRequired,
     dateTo: PropTypes.string.isRequired,
     designation: PropTypes.string.isRequired,
-    organization: PropTypes.string.isRequired,
-  }).isRequired,
+    organization: PropTypes.string.isRequired
+  }).isRequired
 };
 
 export default ExperienceItem;

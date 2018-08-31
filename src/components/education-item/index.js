@@ -17,8 +17,8 @@ EducationItem.propTypes = {
   education: PropTypes.shape({
     year: PropTypes.string.isRequired,
     course: PropTypes.string.isRequired,
-    institute: PropTypes.string.isRequired,
-  }).isRequired,
+    institute: PropTypes.string.isRequired
+  }).isRequired
 };
 
 export default EducationItem;

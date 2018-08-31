@@ -1,0 +1,133 @@
+[
+  {
+    "type": "industrial",
+    "name": "XL Deploy",
+    "description":
+      "Enterprise-scale Application Release Automation for any environment.",
+    "techStack": [
+      "React 16.4.1/Redux-Saga/Ramda",
+      "HTML5/CSS3/Bootstrap",
+      "Jest - Enzyme/CoffeeScript – Jasmine/Protractor-Selenium",
+      "Java-Spring"
+    ],
+    "image": "xldeploy.png",
+    "link": "https://xebialabs.com/products/xl-deploy"
+  },
+  {
+    "type": "industrial",
+    "name": "CPC",
+    "description":
+      "Crown Prince Court is a management tool to manage and organize the requests from the citizens to the Court.",
+    "techStack": [
+      "Angular 1.6.3",
+      "HTML5/CSS3/Bootstrap 3/RTL",
+      "Javascript ES6/Karma - Jasmine",
+      "C#"
+    ],
+    "image": "cpc.png",
+    "link": "#"
+  },
+  {
+    "type": "industrial",
+    "name": "DLSW",
+    "description":
+      "Digital Leader Standard Work enables organizations to manage and organize meetings and sessions in a Leader Standard and in a Lean way.",
+    "techStack": [
+      "Angular 1.5.8",
+      "HTML5/CSS3/Bootstrap 3",
+      "Javascript ES6/Karma - Jasmine",
+      "Rails 4.2/MySQL 5.0.27"
+    ],
+    "image": "dlsw.png",
+    "link": "#"
+  },
+  {
+    "type": "industrial",
+    "name": "OEI",
+    "description":
+      "Operational Excellence Index helps manufacturing industries to assess each employee’s performance based on different criteria.",
+    "techStack": [
+      "Angular 1.5.4",
+      "Jade/HTML5/CSS3/Bootstrap 3",
+      "Javascript ES6/Karma - Jasmine",
+      "Rails 4.2/MySQL 5.0.27"
+    ],
+    "image": "oei.png",
+    "link": "#"
+  },
+  {
+    "type": "industrial",
+    "name": "OnLine Taxes",
+    "description":
+      "OnLine Taxes provides federal and state online tax preparation and electronic filing for individual taxpayers across United States of America.",
+    "techStack": [
+      "Angular 1.5.4",
+      "HTML5/CSS3/Bootstrap 3",
+      "Javascript 1.8",
+      "PHP 5.6.10",
+      "SQL Server 2014"
+    ],
+    "image": "olt.png",
+    "link": "https://www.olt.com/main/home/default.asp"
+  },
+  {
+    "type": "industrial",
+    "name": "OLT Desktop",
+    "description":
+      "OnLine Taxes Desktop is a desktop version of olt.com which provides federal and state tax preparation and electronic filing for individual taxpayers across United States of America.",
+    "techStack": ["C# Forms ( Dotnet Framework 2.0 )", "XML 1.0"],
+    "image": "oltpro.png",
+    "link": "https://www.oltpro.com/main/pro/default.asp"
+  },
+  {
+    "type": "freelance",
+    "name": "Doyaara",
+    "description":
+      "Doyaara is a trust for the needed ones found by the friends for the friends.",
+    "techStack": [
+      "Angular JS 1.5.8",
+      "HTML5/CSS3/Bootstrap 3",
+      "PHP 5.6.10",
+      "MySQL 5.0.95"
+    ],
+    "image": "doyaara.png",
+    "link": "http://doyaara.com/"
+  },
+  {
+    "type": "freelance",
+    "name": "Honey Bee Quilling",
+    "description":
+      "Honey Bee Quilling is a quilling gallery website for a quilling hobbist to promote and share their products.",
+    "techStack": [
+      "Angular JS 1.4.8",
+      "HTML5/CSS3/Bootstrap 3",
+      "PHP 5.6.10",
+      "Facebook Graph API"
+    ],
+    "image": "honeybeequilling.png",
+    "link": "http://honeybeequilling.likesyou.org/"
+  },
+  {
+    "type": "freelance",
+    "name": "Fix Your PC",
+    "description":
+      "Fix Your PC teaches you how to troubleshoot any PC model in 10 minutes.",
+    "techStack": ["PHP 5.3.28", "HTML4/CSS2", "MySQL 5.0.95", "Google Ads"],
+    "image": "fixyourpc.png",
+    "link": "http://fixyourpc.my-webs.org/"
+  },
+  {
+    "type": "personal",
+    "name": "Money Manager",
+    "description":
+      "Money Manager helps to manager our day-to-day expenses online with the help of graphical representations.",
+    "techStack": [
+      "Angular JS 1.5.8",
+      "HTML5/CSS3/Bootstrap 3",
+      "PHP 5.6.10/ MySQL 5.0.95",
+      "Facebook Graph API"
+    ],
+    "image": "moneymanager.png",
+    "link": "http://bigjapps.com/moneymanager"
+  }
+]

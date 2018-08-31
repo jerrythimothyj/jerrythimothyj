@@ -6,11 +6,11 @@ import { connect } from 'react-redux';
 import { GET_PROFILE_DATA } from './actions';
 
 const mapStateToProps = state => ({
-  profileData: state.profile.profileData,
+  profileData: state.profile.profileData
 });
 
 const mapDispatchToProps = dispatch => ({
-  onRequestProfileData: () => dispatch({ type: GET_PROFILE_DATA }),
+  onRequestProfileData: () => dispatch({ type: GET_PROFILE_DATA })
 });
 
 class Profile extends Component {
@@ -95,13 +95,12 @@ Profile.propTypes = {
     github: PropTypes.string.isRequired,
     linkedin: PropTypes.string.isRequired,
     facebook: PropTypes.string.isRequired,
-    resume_link: PropTypes.string.isRequired,
+    resume_link: PropTypes.string.isRequired
   }).isRequired,
-  onRequestProfileData: PropTypes.func.isRequired,
+  onRequestProfileData: PropTypes.func.isRequired
 };
-
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps,
+  mapDispatchToProps
 )(Profile);

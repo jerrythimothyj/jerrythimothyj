@@ -10,9 +10,9 @@ const initialState = {
       databases: [],
       tools: [],
       multimedia: [],
-      testing: [],
-    },
-  },
+      testing: []
+    }
+  }
 };
 
 export default function reducer(state = initialState, action) {

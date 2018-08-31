@@ -7,11 +7,11 @@ import { GET_RESUME_DATA } from './actions';
 import { ExperienceItem, EducationItem, SkillItem } from '../../components';
 
 const mapStateToProps = state => ({
-  resumeData: state.resume.resumeData,
+  resumeData: state.resume.resumeData
 });
 
 const mapDispatchToProps = dispatch => ({
-  onRequestResumeData: () => dispatch({ type: GET_RESUME_DATA }),
+  onRequestResumeData: () => dispatch({ type: GET_RESUME_DATA })
 });
 
 class Resume extends Component {
@@ -254,13 +254,13 @@ Resume.propTypes = {
       databases: PropTypes.array.isRequired,
       tools: PropTypes.array.isRequired,
       multimedia: PropTypes.array.isRequired,
-      testing: PropTypes.array.isRequired,
-    }).isRequired,
+      testing: PropTypes.array.isRequired
+    }).isRequired
   }).isRequired,
-  onRequestResumeData: PropTypes.func.isRequired,
+  onRequestResumeData: PropTypes.func.isRequired
 };
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps,
+  mapDispatchToProps
 )(Resume);

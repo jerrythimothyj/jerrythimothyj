@@ -6,7 +6,7 @@ import {
   Resume,
   Works,
   Blog,
-  Contacts,
+  Contacts
 } from '../../containers';
 import { Background, Loader } from '../../components';
 
@@ -29,6 +29,5 @@ const App = () => (
     </div>
   </div>
 );
-
 
 export default App;

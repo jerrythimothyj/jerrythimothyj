@@ -5,8 +5,8 @@ const initialState = {
     address: '',
     phone: '',
     email: '',
-    freelance: '',
-  },
+    freelance: ''
+  }
 };
 
 export default function reducer(state = initialState, action) {

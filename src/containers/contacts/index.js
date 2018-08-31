@@ -6,11 +6,11 @@ import { connect } from 'react-redux';
 import { GET_CONTACT_DATA } from './actions';
 
 const mapStateToProps = state => ({
-  contactData: state.contacts.contactData,
+  contactData: state.contacts.contactData
 });
 
 const mapDispatchToProps = dispatch => ({
-  onRequestContactData: () => dispatch({ type: GET_CONTACT_DATA }),
+  onRequestContactData: () => dispatch({ type: GET_CONTACT_DATA })
 });
 
 class Contacts extends Component {
@@ -43,7 +43,8 @@ class Contacts extends Component {
                       <strong>Phone . . . . .</strong> {contactData.phone}
                     </li>
                     <li>
-                      <strong>Freelance . . . . .</strong>{contactData.freelance}
+                      <strong>Freelance . . . . .</strong>
+                      {contactData.freelance}
                     </li>
                   </ul>
                 </div>
@@ -62,12 +63,12 @@ Contacts.propTypes = {
     address: PropTypes.string.isRequired,
     phone: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired,
-    freelance: PropTypes.string.isRequired,
+    freelance: PropTypes.string.isRequired
   }).isRequired,
-  onRequestContactData: PropTypes.func.isRequired,
+  onRequestContactData: PropTypes.func.isRequired
 };
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps,
+  mapDispatchToProps
 )(Contacts);
