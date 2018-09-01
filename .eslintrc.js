@@ -3,6 +3,8 @@ module.exports = {
   rules: {
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "react/jsx-indent": [2, 2],
+    "react/no-array-index-key": false,
+    "react/forbid-prop-types": false,
     "jsx-a11y/anchor-is-valid": [
       "error",
       {

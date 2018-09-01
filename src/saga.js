@@ -4,7 +4,7 @@ import resume from './containers/resume/sagas';
 import blog from './containers/blog/sagas';
 import contacts from './containers/contacts/sagas';
 import works from './containers/works/sagas';
-import recommendations from './containers/about/sagas';
+import about from './containers/about/sagas';
 
 export default function* saga() {
   yield all([
@@ -13,6 +13,6 @@ export default function* saga() {
     call(blog),
     call(contacts),
     call(works),
-    call(recommendations)
+    call(about)
   ]);
 }

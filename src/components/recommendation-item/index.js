@@ -10,8 +10,7 @@ const RecommendationItem = props => (
       'active'
     )}
   >
-    <div className="date">{props.recommendation.date}</div>
-    <div className="name">{props.recommendation.name}</div>
+    <div className="date">{props.recommendation.name}</div>
     <div className="company">{props.recommendation.designation}</div>
     <p>{props.recommendation.text}</p>
   </div>

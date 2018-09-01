@@ -1,0 +1,36 @@
+{
+  "intro":
+    "Playing with Javascript - React - Angular - Node - Typescript - HTML - CSS - Bootstrap - Material - PHP - SQL - DevOps - Agile ... and their friends...",
+  "age": 28,
+  "residence": "India",
+  "freelance": "Available",
+  "address": "Bangalore, India",
+  "services": [
+    {
+      "name": "UI Development",
+      "description":
+        "Developing web application with React and Angular with super-reusable components."
+    },
+    {
+      "name": "Web Development",
+      "description":
+        "Developing web application with Php and Front End Frameworks."
+    }
+  ],
+  "pricings": [
+    {
+      "name": "Basic",
+      "price": 10,
+      "featureList": ["UI Development", "Php Backend", "Deployment"],
+      "buyLink":
+        "mailto:?subject=Buy Basic&body=Hi, I would like to buy basic package."
+    },
+    {
+      "name": "Pro",
+      "price": 15,
+      "featureList": ["Web Development", "Php Backend", "Deployment"],
+      "buyLink":
+        "mailto:?subject=Buy Pro&body=Hi, I would like to buy pro package."
+    }
+  ]
+}

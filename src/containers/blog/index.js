@@ -26,14 +26,23 @@ class Blog extends Component {
     return (
       <div className="card-inner blog" id="blog-card">
         <div className="card-wrap">
-          <div className="content blog">
+          <div className="content resume">
             <div className="title">Latest Posts</div>
-            <div className="row border-line-v">
-              {blogData &&
-                blogData.map((blog, index) => (
-                  <BlogItem blog={blog} key={index} />
-                ))}
-              <div className="clear" />
+
+            <div className="row">
+              <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
+                <div className="resume-items">
+                  {blogData &&
+                    blogData.map((blog, index) => (
+                      <BlogItem
+                        blog={blog}
+                        key={index}
+                        isLast={index === blogData.length - 1}
+                      />
+                    ))}
+                  <div className="clear" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

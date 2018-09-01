@@ -1,6 +1,13 @@
 import axios from 'axios';
 
-export default function fetchRecommendationsData() {
+export function fetchAboutData() {
+  return axios({
+    method: 'get',
+    url: 'resources/about.json'
+  });
+}
+
+export function fetchRecommendationsData() {
   return axios({
     method: 'get',
     url: 'resources/recommendations.json'
