@@ -1,0 +1,12 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('./bg.png');
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}

@@ -1,7 +1,7 @@
 import { STORE_BLOG_DATA } from './actions';
 
 const initialState = {
-  blogData: null
+  blogData: []
 };
 
 export default function reducer(state = initialState, action) {

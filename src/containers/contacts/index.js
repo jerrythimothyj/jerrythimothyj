@@ -30,7 +30,6 @@ class Contacts extends Component {
 
             <div className="row">
               <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
-                <div className="map" id="map" />
                 <div className="info-list">
                   <ul>
                     <li>

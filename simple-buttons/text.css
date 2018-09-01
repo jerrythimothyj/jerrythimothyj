@@ -1,0 +1,863 @@
+.color-ffffff {
+	color: #ffffff
+}
+
+.color-cccccc {
+	color: #cccccc
+}
+
+.color-999999 {
+	color: #999999
+}
+
+.color-666666 {
+	color: #666666
+}
+
+.color-333333 {
+	color: #333333
+}
+
+.color-000000 {
+	color: #000000
+}
+
+.color-ffcc00 {
+	color: #ffcc00
+}
+
+.color-ff9900 {
+	color: #ff9900
+}
+
+.color-ff6600 {
+	color: #ff6600
+}
+
+.color-ff3300 {
+	color: #ff3300
+}
+
+.color-99cc00 {
+	color: #99cc00
+}
+
+.color-cc9900 {
+	color: #cc9900
+}
+
+.color-ffcc33 {
+	color: #ffcc33
+}
+
+.color-ffcc66 {
+	color: #ffcc66
+}
+
+.color-ff9966 {
+	color: #ff9966
+}
+
+.color-ff6633 {
+	color: #ff6633
+}
+
+.color-cc3300 {
+	color: #cc3300
+}
+
+.color-cc0033 {
+	color: #cc0033
+}
+
+.color-ccff00 {
+	color: #ccff00
+}
+
+.color-ccff33 {
+	color: #ccff33
+}
+
+.color-333300 {
+	color: #333300
+}
+
+.color-666600 {
+	color: #666600
+}
+
+.color-999900 {
+	color: #999900
+}
+
+.color-cccc00 {
+	color: #cccc00
+}
+
+.color-ffff00 {
+	color: #ffff00
+}
+
+.color-cc9933 {
+	color: #cc9933
+}
+
+.color-cc6633 {
+	color: #cc6633
+}
+
+.color-330000 {
+	color: #330000
+}
+
+.color-660000 {
+	color: #660000
+}
+
+.color-990000 {
+	color: #990000
+}
+
+.color-cc0000 {
+	color: #cc0000
+}
+
+.color-ff0000 {
+	color: #ff0000
+}
+
+.color-ff3366 {
+	color: #ff3366
+}
+
+.color-ff0033 {
+	color: #ff0033
+}
+
+.color-99ff00 {
+	color: #99ff00
+}
+
+.color-ccff66 {
+	color: #ccff66
+}
+
+.color-99cc33 {
+	color: #99cc33
+}
+
+.color-666633 {
+	color: #666633
+}
+
+.color-999933 {
+	color: #999933
+}
+
+.color-cccc33 {
+	color: #cccc33
+}
+
+.color-ffff33 {
+	color: #ffff33
+}
+
+.color-996600 {
+	color: #996600
+}
+
+.color-993300 {
+	color: #993300
+}
+
+.color-663333 {
+	color: #663333
+}
+
+.color-993333 {
+	color: #993333
+}
+
+.color-cc3333 {
+	color: #cc3333
+}
+
+.color-ff3333 {
+	color: #ff3333
+}
+
+.color-cc3366 {
+	color: #cc3366
+}
+
+.color-ff6699 {
+	color: #ff6699
+}
+
+.color-ff0066 {
+	color: #ff0066
+}
+
+.color-66ff00 {
+	color: #66ff00
+}
+
+.color-99ff66 {
+	color: #99ff66
+}
+
+.color-66cc33 {
+	color: #66cc33
+}
+
+.color-669900 {
+	color: #669900
+}
+
+.color-999966 {
+	color: #999966
+}
+
+.color-cccc66 {
+	color: #cccc66
+}
+
+.color-ffff66 {
+	color: #ffff66
+}
+
+.color-996633 {
+	color: #996633
+}
+
+.color-663300 {
+	color: #663300
+}
+
+.color-996666 {
+	color: #996666
+}
+
+.color-cc6666 {
+	color: #cc6666
+}
+
+.color-ff6666 {
+	color: #ff6666
+}
+
+.color-990033 {
+	color: #990033
+}
+
+.color-cc3399 {
+	color: #cc3399
+}
+
+.color-ff66cc {
+	color: #ff66cc
+}
+
+.color-ff0099 {
+	color: #ff0099
+}
+
+.color-33ff00 {
+	color: #33ff00
+}
+
+.color-66ff33 {
+	color: #66ff33
+}
+
+.color-339900 {
+	color: #339900
+}
+
+.color-66cc00 {
+	color: #66cc00
+}
+
+.color-99ff33 {
+	color: #99ff33
+}
+
+.color-cccc99 {
+	color: #cccc99
+}
+
+.color-ffff99 {
+	color: #ffff99
+}
+
+.color-cc9966 {
+	color: #cc9966
+}
+
+.color-cc6600 {
+	color: #cc6600
+}
+
+.color-cc9999 {
+	color: #cc9999
+}
+
+.color-ff9999 {
+	color: #ff9999
+}
+
+.color-ff3399 {
+	color: #ff3399
+}
+
+.color-cc0066 {
+	color: #cc0066
+}
+
+.color-990066 {
+	color: #990066
+}
+
+.color-ff33cc {
+	color: #ff33cc
+}
+
+.color-ff00cc {
+	color: #ff00cc
+}
+
+.color-00cc00 {
+	color: #00cc00
+}
+
+.color-33cc00 {
+	color: #33cc00
+}
+
+.color-336600 {
+	color: #336600
+}
+
+.color-669933 {
+	color: #669933
+}
+
+.color-99cc66 {
+	color: #99cc66
+}
+
+.color-ccff99 {
+	color: #ccff99
+}
+
+.color-ffffcc {
+	color: #ffffcc
+}
+
+.color-ffcc99 {
+	color: #ffcc99
+}
+
+.color-ff9933 {
+	color: #ff9933
+}
+
+.color-ffcccc {
+	color: #ffcccc
+}
+
+.color-ff99cc {
+	color: #ff99cc
+}
+
+.color-cc6699 {
+	color: #cc6699
+}
+
+.color-993366 {
+	color: #993366
+}
+
+.color-660033 {
+	color: #660033
+}
+
+.color-cc0099 {
+	color: #cc0099
+}
+
+.color-330033 {
+	color: #330033
+}
+
+.color-33cc33 {
+	color: #33cc33
+}
+
+.color-66cc66 {
+	color: #66cc66
+}
+
+.color-00ff00 {
+	color: #00ff00
+}
+
+.color-33ff33 {
+	color: #33ff33
+}
+
+.color-66ff66 {
+	color: #66ff66
+}
+
+.color-99ff99 {
+	color: #99ff99
+}
+
+.color-ccffcc {
+	color: #ccffcc
+}
+
+.color-cc99cc {
+	color: #cc99cc
+}
+
+.color-996699 {
+	color: #996699
+}
+
+.color-993399 {
+	color: #993399
+}
+
+.color-990099 {
+	color: #990099
+}
+
+.color-663366 {
+	color: #663366
+}
+
+.color-660066 {
+	color: #660066
+}
+
+.color-006000 {
+	color: #006000
+}
+
+.color-336633 {
+	color: #336633
+}
+
+.color-009900 {
+	color: #009900
+}
+
+.color-339933 {
+	color: #339933
+}
+
+.color-669966 {
+	color: #669966
+}
+
+.color-99cc99 {
+	color: #99cc99
+}
+
+.color-ffccff {
+	color: #ffccff
+}
+
+.color-ff99ff {
+	color: #ff99ff
+}
+
+.color-ff66ff {
+	color: #ff66ff
+}
+
+.color-ff33ff {
+	color: #ff33ff
+}
+
+.color-ff00ff {
+	color: #ff00ff
+}
+
+.color-cc66cc {
+	color: #cc66cc
+}
+
+.color-cc33cc {
+	color: #cc33cc
+}
+
+.color-003300 {
+	color: #003300
+}
+
+.color-00cc33 {
+	color: #00cc33
+}
+
+.color-006633 {
+	color: #006633
+}
+
+.color-339966 {
+	color: #339966
+}
+
+.color-66cc99 {
+	color: #66cc99
+}
+
+.color-99ffcc {
+	color: #99ffcc
+}
+
+.color-ccffff {
+	color: #ccffff
+}
+
+.color-3399ff {
+	color: #3399ff
+}
+
+.color-99ccff {
+	color: #99ccff
+}
+
+.color-ccccff {
+	color: #ccccff
+}
+
+.color-cc99ff {
+	color: #cc99ff
+}
+
+.color-9966cc {
+	color: #9966cc
+}
+
+.color-663399 {
+	color: #663399
+}
+
+.color-330066 {
+	color: #330066
+}
+
+.color-9900cc {
+	color: #9900cc
+}
+
+.color-cc00cc {
+	color: #cc00cc
+}
+
+.color-00ff33 {
+	color: #00ff33
+}
+
+.color-33ff66 {
+	color: #33ff66
+}
+
+.color-009933 {
+	color: #009933
+}
+
+.color-00cc66 {
+	color: #00cc66
+}
+
+.color-33ff99 {
+	color: #33ff99
+}
+
+.color-99ffff {
+	color: #99ffff
+}
+
+.color-99cccc {
+	color: #99cccc
+}
+
+.color-0066cc {
+	color: #0066cc
+}
+
+.color-6699cc {
+	color: #6699cc
+}
+
+.color-9999ff {
+	color: #9999ff
+}
+
+.color-9999cc {
+	color: #9999cc
+}
+
+.color-9933ff {
+	color: #9933ff
+}
+
+.color-6600cc {
+	color: #6600cc
+}
+
+.color-660099 {
+	color: #660099
+}
+
+.color-cc33ff {
+	color: #cc33ff
+}
+
+.color-cc00ff {
+	color: #cc00ff
+}
+
+.color-00ff66 {
+	color: #00ff66
+}
+
+.color-66ff99 {
+	color: #66ff99
+}
+
+.color-33cc66 {
+	color: #33cc66
+}
+
+.color-009966 {
+	color: #009966
+}
+
+.color-66ffff {
+	color: #66ffff
+}
+
+.color-66cccc {
+	color: #66cccc
+}
+
+.color-669999 {
+	color: #669999
+}
+
+.color-003366 {
+	color: #003366
+}
+
+.color-336699 {
+	color: #336699
+}
+
+.color-6666ff {
+	color: #6666ff
+}
+
+.color-6666cc {
+	color: #6666cc
+}
+
+.color-666699 {
+	color: #666699
+}
+
+.color-330099 {
+	color: #330099
+}
+
+.color-9933cc {
+	color: #9933cc
+}
+
+.color-cc66ff {
+	color: #cc66ff
+}
+
+.color-9900ff {
+	color: #9900ff
+}
+
+.color-00ff99 {
+	color: #00ff99
+}
+
+.color-66ffcc {
+	color: #66ffcc
+}
+
+.color-33cc99 {
+	color: #33cc99
+}
+
+.color-33ffff {
+	color: #33ffff
+}
+
+.color-33cccc {
+	color: #33cccc
+}
+
+.color-339999 {
+	color: #339999
+}
+
+.color-336666 {
+	color: #336666
+}
+
+.color-006699 {
+	color: #006699
+}
+
+.color-003399 {
+	color: #003399
+}
+
+.color-3333ff {
+	color: #3333ff
+}
+
+.color-3333cc {
+	color: #3333cc
+}
+
+.color-333399 {
+	color: #333399
+}
+
+.color-333366 {
+	color: #333366
+}
+
+.color-6633cc {
+	color: #6633cc
+}
+
+.color-9966ff {
+	color: #9966ff
+}
+
+.color-6600ff {
+	color: #6600ff
+}
+
+.color-00ffcc {
+	color: #00ffcc
+}
+
+.color-33ffcc {
+	color: #33ffcc
+}
+
+.color-00ffff {
+	color: #00ffff
+}
+
+.color-00cccc {
+	color: #00cccc
+}
+
+.color-009999 {
+	color: #009999
+}
+
+.color-006666 {
+	color: #006666
+}
+
+.color-003333 {
+	color: #003333
+}
+
+.color-3399cc {
+	color: #3399cc
+}
+
+.color-3366cc {
+	color: #3366cc
+}
+
+.color-0000ff {
+	color: #0000ff
+}
+
+.color-0000cc {
+	color: #0000cc
+}
+
+.color-000099 {
+	color: #000099
+}
+
+.color-000066 {
+	color: #000066
+}
+
+.color-000033 {
+	color: #000033
+}
+
+.color-6633ff {
+	color: #6633ff
+}
+
+.color-3300ff {
+	color: #3300ff
+}
+
+.color-00cc99 {
+	color: #00cc99
+}
+
+.color-0099cc {
+	color: #0099cc
+}
+
+.color-33ccff {
+	color: #33ccff
+}
+
+.color-66ccff {
+	color: #66ccff
+}
+
+.color-6699ff {
+	color: #6699ff
+}
+
+.color-3366ff {
+	color: #3366ff
+}
+
+.color-0033cc {
+	color: #0033cc
+}
+
+.color-3300cc {
+	color: #3300cc
+}
+
+.color-00ccff {
+	color: #00ccff
+}
+
+.color-0099ff {
+	color: #0099ff
+}
+
+.color-0066ff {
+	color: #0066ff
+}
+
+.color-0033ff {
+	color: #0033ff
+}

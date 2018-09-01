@@ -1,0 +1,29 @@
+[
+  {
+    "title": "svg-sprites",
+    "description": "How to use SVG Sprites in HTML and CSS?",
+    "date_dd": "18",
+    "date_mm": "Mar",
+    "date_yyyy": "2018",
+    "link": "https://medium.com/@jerrythimothy/svg-sprites-e418ab93d8a7"
+  },
+  {
+    "title": "margins-paddings-sass-mixin",
+    "description":
+      "A sass mixin to create a bunch of margin and padding classes",
+    "date_dd": "14",
+    "date_mm": "Mar",
+    "date_yyyy": "2018",
+    "link":
+      "https://medium.com/@jerrythimothy/margins-paddings-sass-mixin-16460c32507f"
+  },
+  {
+    "title": "Simple buttons with HTML and CSS",
+    "description": "Simple colorful buttons with web safe colors",
+    "date_dd": "13",
+    "date_mm": "Mar",
+    "date_yyyy": "2018",
+    "link":
+      "https://medium.com/@jerrythimothy/simple-buttons-with-html-and-css-80da5860cdd0"
+  }
+]
