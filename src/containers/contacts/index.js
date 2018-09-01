@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { GET_CONTACT_DATA } from './actions';
+import { UserVisits } from '../../components';
 
 const mapStateToProps = state => ({
   contactData: state.contacts.contactData
@@ -30,6 +31,7 @@ class Contacts extends Component {
 
             <div className="row">
               <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
+                <UserVisits />
                 <div className="info-list">
                   <ul>
                     <li>

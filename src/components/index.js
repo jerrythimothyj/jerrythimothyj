@@ -4,6 +4,8 @@ import ExperienceItem from './experience-item';
 import EducationItem from './education-item';
 import SkillItem from './skill-item';
 import WorkItem from './work-item';
+import BlogItem from './blog-item';
+import UserVisits from './user-visits';
 
 export {
   Background,
@@ -11,5 +13,7 @@ export {
   ExperienceItem,
   EducationItem,
   SkillItem,
-  WorkItem
+  WorkItem,
+  BlogItem,
+  UserVisits
 };

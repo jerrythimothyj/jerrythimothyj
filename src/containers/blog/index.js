@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { GET_BLOG_DATA } from "./actions";
-import BlogItem from "../../components/blog-item";
+import { BlogItem } from "../../components";
 
 const mapStateToProps = state => ({
   blogData: state.blog.blogData
