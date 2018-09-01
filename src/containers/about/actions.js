@@ -1,0 +1,4 @@
+export const GET_RECOMMENDATIONS_DATA =
+  'recommendations/GET_RECOMMENDATIONS_DATA';
+export const STORE_RECOMMENDATIONS_DATA =
+  'recommendations/STORE_RECOMMENDATIONS_DATA';

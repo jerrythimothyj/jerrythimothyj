@@ -13,6 +13,7 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   onRequestBlogData: () => dispatch({ type: GET_BLOG_DATA })
 });
+
 class Blog extends Component {
   componentDidMount() {
     const { onRequestBlogData } = this.props;

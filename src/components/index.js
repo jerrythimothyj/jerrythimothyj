@@ -6,6 +6,7 @@ import SkillItem from './skill-item';
 import WorkItem from './work-item';
 import BlogItem from './blog-item';
 import UserVisits from './user-visits';
+import RecommendationItem from './recommendation-item';
 
 export {
   Background,
@@ -15,5 +16,6 @@ export {
   SkillItem,
   WorkItem,
   BlogItem,
-  UserVisits
+  UserVisits,
+  RecommendationItem
 };

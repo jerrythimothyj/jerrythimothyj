@@ -952,6 +952,7 @@
 
 .resume-items .resume-item p {
 	margin: 0;
+	white-space: pre-wrap;
 }
 
 /* 5.2 Skills */
