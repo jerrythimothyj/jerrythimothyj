@@ -83,6 +83,10 @@
             {
                 "name": "PHP",
                 "rating": "50%"
+            },
+            {
+                "name": "Vue",
+                "rating": "40%"
             }
         ],
         "databases": [

@@ -46,7 +46,7 @@ class About extends Component {
                       <strong>Residence . . . . .</strong> {aboutData.residence}
                     </li>
                     <li>
-                      <strong>Freelance . . . . .</strong> {aboutData.available}
+                      <strong>Freelance . . . . .</strong> {aboutData.freelance}
                     </li>
                     <li>
                       <strong>Address . . . . .</strong> {aboutData.address}
